@@ -15,7 +15,7 @@ Console.WriteLine("Ingrese su presión sistólica");
 presionSistolica = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese su nivel de dolor (0 a 10)");
 nivelDolor = int.Parse(Console.ReadLine());
-Console.WriteLine("Ingrese el nivel de prioridad");
+Console.WriteLine("Ingrese el tipo de atención");
 Console.WriteLine("1. Emergencia");
 Console.WriteLine("2. Consulta");
 Console.WriteLine("3. Pediatria");
