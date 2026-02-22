@@ -1,1 +1,12 @@
-﻿
+﻿int edad;
+int opcionPrioridad;
+Console.WriteLine("Se verificara la prioridad y edad del paciente");
+Console.WriteLine("Ingrese la edad del paciente");
+edad = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese el nivel de prioridad");
+Console.WriteLine("1. Emergencia");
+Console.WriteLine("2. Consulta");
+Console.WriteLine("3. Pediatria");
+Console.WriteLine("4. Traumatologia");
+Console.WriteLine("Elija una opción");
+opcionPrioridad = int.Parse(Console.ReadLine());
