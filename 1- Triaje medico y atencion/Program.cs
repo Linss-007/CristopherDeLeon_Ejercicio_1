@@ -2,7 +2,6 @@
 int opcionPrioridad;
 int temperatura;
 int oxigeno;
-int dolor;
 int presionSistolica;
 int nivelDolor;
 Console.WriteLine("Se verificara los datos del paciente");
@@ -23,3 +22,29 @@ Console.WriteLine("3. Pediatria");
 Console.WriteLine("4. Traumatologia");
 Console.WriteLine("Elija una opción");
 opcionPrioridad = int.Parse(Console.ReadLine());
+
+if(edad >= 0 && (nivelDolor  >= 0 && nivelDolor <= 10) && oxigeno > 0 && presionSistolica > 0 && temperatura > 0)
+{
+    switch(opcionPrioridad)
+    {
+        case 1:
+            Console.WriteLine();
+        break;
+
+        case 2:
+            Console.WriteLine(); 
+        break;
+
+        case 3:
+            Console.WriteLine();
+        break;
+
+        case 4:
+            Console.WriteLine();
+        break;
+    }
+}
+else
+{
+    Console.WriteLine("Algun dato es incorrecto");
+}
